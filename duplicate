@@ -1,0 +1,9 @@
+class solution:
+    def singleNumber(self,nums):
+        for i in nums:
+            if nums.count(i)==1:
+                return i
+                break
+  output:
+  Input: nums = [2,2,1]
+   Output: 1
